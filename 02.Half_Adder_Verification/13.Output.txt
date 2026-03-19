@@ -1,0 +1,45 @@
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO seq.sv(10) @ 0: uvm_test_top.env.ag.seq1@@se [TRANS] Trans begin
+UVM_INFO seq.sv(15) @ 0: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 20: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=1 | sum=0 | carry=1
+UVM_INFO seq.sv(15) @ 20: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=0 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 40: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=0 | sum=1 | carry=0
+UVM_INFO seq.sv(15) @ 40: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 60: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=1 | sum=0 | carry=1
+UVM_INFO seq.sv(15) @ 60: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=0 | b=0 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 80: uvm_test_top.env.scoreboard [scoreboard] True statement - a=0 | b=0 | sum=0 | carry=0
+UVM_INFO seq.sv(15) @ 80: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=0 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 100: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=0 | sum=1 | carry=0
+UVM_INFO seq.sv(15) @ 100: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 120: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=1 | sum=0 | carry=1
+UVM_INFO seq.sv(15) @ 120: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=1 | b=0 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 140: uvm_test_top.env.scoreboard [scoreboard] True statement - a=1 | b=0 | sum=1 | carry=0
+UVM_INFO seq.sv(15) @ 140: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=0 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 160: uvm_test_top.env.scoreboard [scoreboard] True statement - a=0 | b=1 | sum=1 | carry=0
+UVM_INFO seq.sv(15) @ 160: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=0 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 180: uvm_test_top.env.scoreboard [scoreboard] True statement - a=0 | b=1 | sum=1 | carry=0
+UVM_INFO seq.sv(15) @ 180: uvm_test_top.env.ag.seq1@@se [sequence] INPUT DATA --a=0 | b=1 | sum=0 | carry=0
+UVM_INFO scoreboard.sv(19) @ 200: uvm_test_top.env.scoreboard [scoreboard] True statement - a=0 | b=1 | sum=1 | carry=0
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 250: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 250: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   24
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[TRANS]     1
+[UVM/RELNOTES]     1
+[scoreboard]    10
+[sequence]    10
